@@ -1,73 +1,111 @@
-.navImage {
-  width: 4vw;
-  height: 4vw;
+*{
+    margin: 0;
+   
 }
 
-.box {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 2vw;
-  position: sticky;
+/* home  */
+Button{
+    /* style={{position:"relative",color:"lightGreen",textAlign:"center",left:"9vw",width:"20vw",bottom:"45vw"}} */
+    position: relative;
+    color: aqua;
+    text-align: center;
+    left: 9vw;
+    width: 20vw;
+    bottom: 45vw;
 }
 
-.box::before {
-  content: "";
-  background-color: black;
-  position: absolute;
+.home-image{
   height: 100%;
   width: 100%;
-  z-index: -1;
-  opacity: 0.5;
+ 
+  
 }
 
-.link {
-  text-decoration: none;
-  color: white;
-  flex-direction: column;
-}
-.link:hover {
-  color: tomato;
-}
-
-/* Home */
-.home img {
-  width: 50%;
-  height: 50%;
-}
-h1 {
-  position: relative;
-  justify-content: center;
-  text-align: center;
-  bottom: 29vw;
-  color: rgb(49, 153, 181);
-  flex-wrap: wrap;
-  font-size: 6vw;
-}
-h2 {
-  position: relative;
-  justify-content: center;
-  text-align: center;
-  bottom: 29vw;
-  color: rgb(49, 153, 181);
-  flex-wrap: wrap;
-}
-
-.container{
+.h1{
     display: flex;
-    gap: 3vw;
-    background: url(https://i.postimg.cc/2jwMQQk8/5580641.jpg);
-    width: 100vw;
-    height: 30vw;
+    text-align: center;
+    background-color: black;
+    color: rgb(17, 31, 175);
+    position: relative;
+    bottom: 28.0vw;
+    border: 4px solid rgb(9, 9, 10);
+    height: 65px;
+    border-radius: 70px;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+  
+}
+
+/* carousel */
+
+
+   
     
+
+.carousel{
+    position: relative;
+  width: 95%;
+  left: 2.5vw;
+  bottom: 28vw;
+    transition: all 2s ease-in-out;
+    border: 30px solid black;
+    border-radius: 4vw;
 }
-.first{
-  display: flex;
-  width: 50%;
-  height: 50%;
-  gap: 10vw;
-  bottom: 0vw;
+.carousel:hover{
+    transform: scale(0.9);
 }
 
+/* H2  */
 
+.h2{
+    position: relative;
+    text-align: center;
+    bottom: 27.7vw;
+    color: blue;
+    background-color: black;
+    border: 3px solid black;
+    border-radius: 25px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* .player  */ 
+
+.background{
+    background-color: black;
+    position: relative;
+    bottom: 27.8vw;
+    height: 1000px;
+}
+.player{
+    display: flex;
+    position: relative;
+    gap: 2vw;
+    top: 24vw;
+    
+
+}
+.player-extra{
+    display: flex;
+    position: relative;
+    gap: 2vw;
+    top: 28vw;
+    
+
+}
+
+.one:hover{
+    /* transform: rotate(360deg); */
+    transform: scale(1.1);
+
+}
+.two:hover{
+    /* transform: rotate(360deg); */
+    transform: scale(1.1);
+
+
+}
